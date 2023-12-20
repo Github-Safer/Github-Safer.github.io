@@ -3,3 +3,14 @@ body
 {
     background-image: url(NoBg/pic1.png.jpg);
 }
+
+.container-fluid
+{
+    background-color: #F2F1EB;
+}
+
+.navbar-brand img
+{
+    width: 200px;
+    height: 100px;
+}
