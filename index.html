@@ -8,46 +8,107 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body">
-        <div class="container-fluid">
-            <!-- brand name and logo -->
-            <a href="" class="navbar-brand"><img class="d-inline-block me-2" src="media/hamrie logo.png" alt="company logo"></a>
-            
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NavbarHeader" aria-controls="NavbarHeader" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="colapse navbar-collapse " id="NavbarHeader">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item active">
-                            <a href="" class="nav-link">Home</a>
-                        </li>
+<body class="bg-image">
 
-                        <!-- navigation with dropdown -->
+        <!-- nav section -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- brand  logo -->
+                <div class="nav nav-justify-center">
+                <a href="" class="navbar-brand "><img class="d-inline-block " src="media/hamrielogo.png" alt="company logo"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav m-auto  mb-2 mb-lg-0">
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           <img id="hamsterlogo" src="media/navlogohamster.PNG" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Hamster species</a></li>
+                        </ul>
+                      </li>
+
                         <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" id="NavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Resources</a>
-                            <ul class="dropdown-menu" aria-labelledby="NavbarDropdown">
-                                <li><a class="dropdown-item" href="#">Resource 1</a></li>
-                                <li><a class="dropdown-item" href="#">Resource 2</a></li>
-                                <li><a class="dropdown-item" href="#">Resource 3</a></li>
-                                <li><a class="dropdown-item" href="#">Resource 4</a></li>
-                            </ul>
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             <img id="carelogo" src="media/navlogocare.png" alt="">
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">How to take care of hamster </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">What should you feed your hamster</a></li>
+                            <li><a class="dropdown-item" href="#">How to tame your hamster</a></li>
+                          </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Features</a>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             <img id="cagelogo" src="media/navlogocage.PNG" alt="">
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">What should you put in hamster cage</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Hamster Cage Size & Type</a></li>
+                            <li><a class="dropdown-item" href="#">Hamster Bedding</a></li>
+                            <li><a class="dropdown-item" href="#">Sand Bath</a></li>
+                          </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="" class="nav-link">About Us</a>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             <img id="toylogo" src="media/navlogotoy.PNG" alt="">
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Hamster toys</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Hamster Wheel</a></li>
+                            <li><a class="dropdown-item" href="#">Hamster chewtoys</a></li>
+                          </ul>
                         </li>
+
                     </ul>
-                    
+                </div>
             </div>
+        </nav><!-- end of nav section -->
+
+    
+        <div class="paperdesign bg-image">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="media/navlogocare.png" class="d-block w-25 h-25  " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/navlogotoy.PNG" class="d-block w-25 h-25 " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/navlogohamster.PNG" class="d-block w-25 h-25 " alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <h1 class="mt-10p">What is Hamster?</h1>
+            <p>
+                Hamsters are small rodents that are commonly kept as house pets. They are distinguishable from other rodents due to their short tails, stubby legs small ears and cheek pouch.
+                Hamsters are nocturnal (meaning active at night), which means they like sleeping during the day. In the wild, they dig burrows, which are a series of tunnels, to live and breed in. Hamsters will also store food in their burrows. Living underground keeps wild hamsters cool in hot climates.
+                <br><br>
+                Hamster cheeks
+                All hamsters have cheek pouches. These large pockets are evaginations of the oral mucosa and can stretch all the way back to a hamster's shoulders.
+                The primary purpose of the pouches is to carry food from place to place. In the wild, hamsters use their cheeks to bring food back to their burrows. This habit led to their name, which roughly translates to "mister saddlebags" in the local Arabic dialect where they are from. Female hamsters  may even carry or hide their babies in their cheek pouches.
+            </p>
 
         </div>
-    </nav>
-
+        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

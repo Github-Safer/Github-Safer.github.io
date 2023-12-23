@@ -1,16 +1,88 @@
-body
 
+body
 {
-    background-image: url(media/picfullbg1.jpg);
+    background-image: url("media/picfullbg1.jpg");
+    height: 100vh;
 }
 
-.container-fluid
+.navbar,.container-fluid
 {
-    background-color: #F2F1EB;
+    background-image: url("media/picfullbg2.png");
+    background-size: cover;
+    width: 100vw;
 }
 
 .navbar-brand img
 {
+    margin: 4px;
     width: 200px;
     height: 100px;
 }
+
+.navbar-nav li 
+{
+    display: inline;
+    padding-right: 50px;
+}
+
+
+.dropdown-menu
+{
+    background-color:  #ccb7e5; ;
+}
+
+.nav-link img
+{
+    
+    height: 10vh;
+}
+
+.nav-link img
+{
+    
+    height: 10vh;
+}
+
+.nav-link img:hover
+{
+    
+ text-decoration: underline;
+}
+
+
+#hamsterlogo
+{
+    width:8vw;
+}
+
+#carelogo
+{
+    width: 5vw;
+}
+
+#cagelogo
+{
+    width: 6vw;
+}
+
+#toylogo
+{
+    width: 4vw;
+}
+.paperdesign
+{
+    background-image: url("media/coloredpaper1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+
+p
+{
+    width: 80%;
+}
+
+
+
+
