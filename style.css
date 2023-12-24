@@ -12,13 +12,30 @@ body
     width: 100vw;
 }
 
+.navbar-brand
+{
+    background-image: url("media/hamrielogo3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 305px;
+    height: 105px;
+    /* margin-left: 25%;
+    transform: translate(-50%); */
+}
 .navbar-brand img
 {
-    margin: 4px;
-    width: 200px;
-    height: 100px;
+    opacity: 0;
 }
 
+.navbar-brand img:hover
+{
+    opacity: 100;
+    width: 315px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 22px;
+}
 .navbar-nav li 
 {
     display: inline;
@@ -34,40 +51,33 @@ body
 .nav-link img
 {
     
-    height: 10vh;
+    height: 50px;
 }
 
-.nav-link img
+.nav-link:hover
 {
-    
-    height: 10vh;
-}
-
-.nav-link img:hover
-{
-    
- text-decoration: underline;
+    text-decoration: underline;
 }
 
 
 #hamsterlogo
 {
-    width:8vw;
+    width:90px;
 }
 
 #carelogo
 {
-    width: 5vw;
+    width: 60px;
 }
 
 #cagelogo
 {
-    width: 6vw;
+    width: 60px;
 }
 
 #toylogo
 {
-    width: 4vw;
+    width: 50px;
 }
 .paperdesign
 {
