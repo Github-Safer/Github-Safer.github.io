@@ -16,8 +16,10 @@ body
     src: url();
 }
 
+/* main page  */
+
 /* nav style */
-.navbar,.container-fluid
+.navbar
 {
     background-image: url("media/picfullbg2.png");
     background-size: cover;
@@ -43,14 +45,6 @@ body
    justify-content: end;
 }
 
-.navbar-toggler-icon
-{
-    width: 25px;
-    height: 25px;
-}
-
-
-
 .navbar-nav li 
 {
     display: inline;
@@ -60,7 +54,7 @@ body
 .nav-link
 {
     font-family: myFont;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
 }
 
@@ -94,11 +88,11 @@ body
     width: 50px;
 }
 
-.dropdown-menu
+/* .dropdown-menu
 {
     background-color:  #F2F1EB; 
-    width: 300px;
-}
+    width: 250px;
+} */
 
 .dropdown-menu li a
 {
@@ -112,47 +106,112 @@ body
     background-color:#CEB2DB;
 }
 
-
 /* content style */
  
-.paperdesign
-{
-    background-image: url("media/coloredpaper.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-
-li a
-{
-    font-family: myFont;
-}
-
-ul li a
-{}
-
-/* content style */
-p
-{
-    width: 80%;
-}
-
-h1
-{
-    font-family: myFont;
-}
-
 #carousel
 {
-    height: 50vh;
-    width: 50vw;
+    padding-top: 10vh;
     margin: auto;
 }
 
 #carousel img
 {
     margin: auto;
-    height: 300px;
-    width: 200px;
+    width: 50vw;
+    border: 1vw solid #F2F1EB;
 }
+
+ h1
+{
+    font-family: myFont;
+    text-align: center;
+    font-size: 80px;
+}
+
+h3
+{
+    font-family: myFont;
+    font-size: 50px;
+    text-align: center;
+}
+
+ p
+{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content
+{
+    padding-top: 50px;
+    justify-content: center;
+    margin: auto;
+}
+
+.bgpaper1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+.bgpaper2
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;
+    height: 100vh;
+}
+
+.vid1
+{
+    margin: auto;
+    border: 1vw solid #F2F1EB;
+    background-image: url("media/gridpaper1.1.png");
+}
+
+.vid2
+{
+    margin-left: 10vw;
+    border: 1vw solid #F2F1EB;
+    background-image: url("media/gridpaper1.1.png");
+}
+
+/* hamster species style */
+ h4
+{
+    font-family: myFont;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4vw;
+}
+
+.species
+{
+    margin-top: 1vw;
+}
+.species li
+{
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.species  span
+{
+    position: relative;
+    left: -12px;
+}
+
+.speciesimg
+{
+    width: 20vw;
+    height: 50vh;
+    margin: auto;
+}
+
+
