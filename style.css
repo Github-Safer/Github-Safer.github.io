@@ -171,47 +171,138 @@ h3
     margin: auto;
     border: 1vw solid #F2F1EB;
     background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
 
 .vid2
 {
-    margin-left: 10vw;
+    margin:auto;
     border: 1vw solid #F2F1EB;
     background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
 
 /* hamster species style */
- h4
+.speciesh4
 {
     font-family: myFont;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    margin-top: 4vw;
+    margin: 3vw;
 }
 
-.species
+.speciesp
 {
-    margin-top: 1vw;
-}
-.species li
-{
+    text-align: center;
+    width: 80%;
     margin: auto;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
 }
 
-.species  span
+.speciesdl
 {
-    position: relative;
-    left: -12px;
+    margin-top: 1vw;
+    margin-left: 10vw;
+}
+
+.speciesdt
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.speciesdd
+{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .speciesimg
 {
     width: 20vw;
-    height: 50vh;
-    margin: auto;
+    height: 30vh;
+    margin-left: 10vw;
+    margin-top: 0vw;
 }
 
+/* hamster food style */
+.waterimg
+{
+    width: 10vw;
+    height: 30vh;
+}
 
+ul
+{
+    list-style-position: inside;
+    justify-content: end;
+}
+
+/* hamster cage */
+
+.vid3
+{
+    margin:auto;
+    border: 1vw solid #F2F1EB;
+    background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.vid4
+{
+    margin:auto;
+    border: 1vw solid #F2F1EB;
+    background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.vid5
+{
+    margin:auto;
+    border: 1vw solid #F2F1EB;
+    background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.vid6
+{
+    margin:auto;
+    border: 1vw solid #F2F1EB;
+    background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+/* hamster bedding style */
+.beddingimg
+{
+    width: 20vw;
+    height: 60vh;
+}
+
+/* hamster sand style */
+.sandimg
+{
+    width: 20vw;
+    height: 60vh;
+}
+
+/* hamster hideout */
+.hideoutimg
+{
+    width: 20vw;
+    height: 60vh;
+}
+
+/* hamster wheel */
+
+.wheelimg
+{
+    width: 20vw;
+    height: 60vh;
+}
