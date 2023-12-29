@@ -2,19 +2,22 @@
 body
 {
     background-image: url("media/picfullbg1.jpg");
-    height: 100vh;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
 }
 
-@font-face 
+@font-face
 {
     font-family: myFont;
     src: url("font/TheSmileFont.otf");
 }
 
 @font-face {
-    font-family: myFont1;
-    src: url();
+    font-family: myFont2;
+    src: url(font/GlacialIndifference.otf);
 }
+
 
 /* main page  */
 
@@ -23,14 +26,9 @@ body
 {
     background-image: url("media/picfullbg2.png");
     background-size: cover;
-    width: 100vw;
+    width: 100%;
 }
 
-.navbar-brand
-{
-    /* margin-left: 25%;
-    transform: translate(-50%); */
-}
 .navbar-brand img
 {
     width: 315px;
@@ -45,7 +43,7 @@ body
    justify-content: end;
 }
 
-.navbar-nav li 
+.navbar-nav li
 {
     display: inline;
     padding-right: 3vw;
@@ -53,8 +51,8 @@ body
 
 .nav-link
 {
-    font-family: myFont;
-    font-size: 25px;
+    font-family: myFont2;
+    font-size: 20px;
     color: black;
 }
 
@@ -88,15 +86,15 @@ body
     width: 50px;
 }
 
-/* .dropdown-menu
+.dropdown-menu
 {
-    background-color:  #F2F1EB; 
+    background-color:  #F2F1EB;
     width: 250px;
-} */
+}
 
 .dropdown-menu li a
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:myFont2;
     font-size: 20px;
     color: black;
 }
@@ -107,7 +105,7 @@ body
 }
 
 /* content style */
- 
+
 #carousel
 {
     padding-top: 10vh;
@@ -121,34 +119,33 @@ body
     border: 1vw solid #F2F1EB;
 }
 
- h1
+ .indexh1
 {
-    font-family: myFont;
     text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
     font-size: 80px;
 }
 
-h3
+.indexh3
 {
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     font-family: myFont;
     font-size: 50px;
-    text-align: center;
 }
 
- p
+.indexp
 {
-    text-align: center;
-    width: 80%;
+    text-align: justify;
+    margin-bottom: 3vw;
     margin: auto;
+    font-family: myFont2;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.content
-{
-    padding-top: 50px;
-    justify-content: center;
-    margin: auto;
+    width: 80%;
+    border: 1px solid black;
 }
 
 .bgpaper1
@@ -156,7 +153,7 @@ h3
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
-    width: 100vw;
+    width: 98vw;
 }
 .bgpaper2
 {
@@ -169,78 +166,222 @@ h3
 .vid1
 {
     margin: auto;
+    margin-bottom: 2vw;
     border: 1vw solid #F2F1EB;
     background-image: url("media/gridpaper1.1.png");
     aspect-ratio: 16 / 9;
-    width: 100%;
+    width: 95%;
 }
 
 .vid2
 {
     margin:auto;
+    margin-bottom: 2vw;
     border: 1vw solid #F2F1EB;
     background-image: url("media/gridpaper1.1.png");
     aspect-ratio: 16 / 9;
-    width: 100%;
+    width: 95%;
 }
 
 /* hamster species style */
+
+.speciesh1
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
+}
+
+
+.speciesp
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
 .speciesh4
 {
     font-family: myFont;
     font-size: 35px;
     text-align: center;
     margin: 3vw;
-}
-
-.speciesp
-{
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -3vw;
+    margin-top: 5vw;
 }
 
 .speciesdl
 {
-    margin-top: 1vw;
-    margin-left: 10vw;
+
+    margin: auto;
+    text-align: justify;
+    width: 90%;
+    border: 1px solid black;
 }
 
 .speciesdt
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: myFont2;
+    font-size:15px;
     margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .speciesdd
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:myFont2;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: justify;
 }
 
 .speciesimg
 {
-    width: 20vw;
-    height: 30vh;
-    margin-left: 10vw;
-    margin-top: 0vw;
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
+
+}
+
+.speciesimgdiv
+{
+    margin: auto;
+    text-align: center;
 }
 
 /* hamster food style */
+
+.foodh1
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
+}
+
+.foodh3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+.foodh4
+{
+    font-family: myFont;
+    font-size: 35px;
+    text-align: center;
+    margin: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.foodp
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
+
+.foodul
+{
+    text-align: justify;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 25px;
+    width: 50%;
+}
+
 .waterimg
 {
-    width: 10vw;
-    height: 30vh;
+    width: 384px;
+    height:451.75px;
+    object-fit: contain;
+    text-align: center;
 }
 
-ul
+/* hamster tame style */
+.tameh1
 {
-    list-style-position: inside;
-    justify-content: end;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
 }
+
+.tameh3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+.tamep
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
+
+
 
 /* hamster cage */
+
+.cageh1
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
+}
+
+.cageh3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+.cageh4
+{
+    font-family: myFont;
+    font-size: 35px;
+    text-align: center;
+    margin: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.cagep
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
 
 .vid3
 {
@@ -279,30 +420,200 @@ ul
 }
 
 /* hamster bedding style */
-.beddingimg
+.beddingh1
 {
-    width: 20vw;
-    height: 60vh;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
+}
+
+.beddingh3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+.beddingh4
+{
+    font-family: myFont;
+    font-size: 35px;
+    text-align: center;
+    margin: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.beddingp
+{
+    text-align: center;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
+
+.beddingp1
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    padding-top: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 20px;
+    width: 80%;
+}
+
+.beddingimg
+{ 
+    width: 384px;
+    height:451.75px;
+    object-fit: contain;
+    text-align: center;
+    margin: auto;
+}
+
+.beddingimgdiv
+{
+    margin: auto;
+    text-align: center;
 }
 
 /* hamster sand style */
+
+.sandh1
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
+}
+
+.sandh3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+.sandh4
+{
+    font-family: myFont;
+    font-size: 35px;
+    text-align: center;
+    margin: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.sandp
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
+
 .sandimg
 {
-    width: 20vw;
-    height: 60vh;
+    width: 384px;
+    height:451.75px;
+    object-fit: contain;
+    text-align: center;
+}
+
+.sandimgdiv
+{
+    margin: auto;
+    text-align: center;
+}
+/* hamster wheel */
+
+.toyh1
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
+}
+
+.toyh3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+.toyh4
+{
+    font-family: myFont;
+    font-size: 35px;
+    text-align: center;
+    margin: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.toyp
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
+
+.toyp1
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    padding-top: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 20px;
+    width: 80%;
+}
+
+.wheelimg
+{
+    width: 384px;
+    height:451.75px;
+    object-fit: contain;
+    text-align: center;
+}
+
+.wheelimgdiv
+{
+    margin: auto;
+    text-align: center;
 }
 
 /* hamster hideout */
 .hideoutimg
 {
-    width: 20vw;
-    height: 60vh;
+    width: 384px;
+    height:451.75px;
+    object-fit: contain;
+    text-align: center;
+    margin: auto;
 }
 
-/* hamster wheel */
-
-.wheelimg
+.hideoutimgdiv
 {
-    width: 20vw;
-    height: 60vh;
+    margin: auto;
+    text-align: center;
 }
