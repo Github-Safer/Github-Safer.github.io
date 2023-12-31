@@ -220,7 +220,7 @@ body
 {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 90vh;
     width: 45vw;
     z-index: -1;
     margin-left: 53.9vw;
@@ -278,10 +278,82 @@ body
 
 /* hamster species style */
 
+.bgpaper1species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.paperbag1species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    width: 60vw;
+    z-index: -1;
+    object-fit: contain;
+}
+
+.paperbag2species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 45vw;
+    z-index: -1;
+    margin-left: 53.9vw;
+    object-fit: contain;
+}
+
+.paperbag3species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    width: 60vw;
+    z-index: -1;
+    object-fit: contain;
+}
+
+.gridpaper1species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 45vw;
+    z-index: -1;
+    margin-left: 53.9vw;
+    object-fit: contain;
+}
+
+.gridpaper2species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    width: 60vw;
+    z-index: -1;
+    object-fit: contain;
+}
+
+.gridpaper3species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 45vw;
+    z-index: -1;
+    margin-left: 53.9vw;
+    object-fit: contain;
+}
+
 .speciesh1
 {
     text-align: center;
-    margin-top: 3vw;
+    padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
     font-size: 80px;
@@ -362,10 +434,38 @@ body
 
 /* hamster food style */
 
+.bgpaper1food
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.bgpaper2food
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.plainpaper1food
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1vw;
+    height: 55vh;
+    width: 98.9vw;
+    z-index: -1;
+    
+}
 .foodh1
 {
     text-align: center;
-    margin-top: 3vw;
+    padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
     font-size: 80px;
@@ -445,8 +545,65 @@ body
     width: 100%;
 }
 
+.food
+{
+    width: 99%;
+}
+
+.foodimgdiv
+{
+    margin: auto;
+    text-align: center;
+}
+
+.foodrow
+{
+    width: 95%;
+    margin: auto;
+}
 
 /* hamster tame style */
+.bgpaper1tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.bgpaper2tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.plainpaper1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 98.9vw;
+    z-index: -1;
+    object-fit: contain;
+}
+.tameheader
+{
+    text-align: center;
+    margin: auto;
+    padding-top: 10vh;
+}
+.tameheaderimg
+{
+    width: 50vw;
+    object-fit: contain;
+    text-align: center;
+    margin: auto;
+    border: 1vw solid #F2F1EB;
+}
 .tameh1
 {
     text-align: center;
@@ -491,22 +648,61 @@ body
     text-align: center;
 }
 
-.foodimgdiv
-{
-    margin: auto;
-    text-align: center;
-}
-
-.foodrow
-{
-    width: 95%;
-    margin: auto;
-}
-
-
 
 /* hamster cage */
 
+#carousel1
+{
+    padding-top: 10vh;
+    margin: auto;
+}
+
+#carousel1 img
+{
+    margin: auto;
+    width: 50vw;
+    border: 1vw solid #F2F1EB;
+}
+
+.bgpaper1cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.bgpaper2cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+
+.plainpaper1cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 98.9vw;
+    z-index: -1;
+    margin-top: 85vh;
+    
+}
+
+.plainpaper2cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 98.9vw;
+    z-index: -1;
+    
+}
 .cageh1
 {
     text-align: center;
@@ -544,7 +740,11 @@ body
     font-size: 30px;
     width: 80%;
 }
-
+.cagerow
+{
+    width: 80%;
+    margin: auto;
+}
 .vid3
 {
     margin:auto;
@@ -581,11 +781,28 @@ body
     width: 100%;
 }
 
+
 /* hamster bedding style */
+.bgpaperbedding1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.bgpaperbedding2
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width:  98.9vw;
+}
 .beddingh1
 {
     text-align: center;
-    margin-top: 3vw;
+    padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
     font-size: 80px;
@@ -646,12 +863,34 @@ body
     text-align: center;
 }
 
+.bedding
+{
+    width: 99%;
+}
+
 /* hamster sand style */
+.bgpaper1sand
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.bgpaper2sand
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
 
 .sandh1
 {
     text-align: center;
-    margin-top: 3vw;
+    padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
     font-size: 80px;
@@ -699,12 +938,53 @@ body
     margin: auto;
     text-align: center;
 }
-/* hamster wheel */
 
+.sandbath
+{
+    width: 99%;
+}
+/* hamster wheel */
+.bgpaper1toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.bgpaper2toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -1;
+}
+
+.plainpaper1toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 98.9vw;
+    z-index: -1;
+    margin-top: -5vw;
+}
+
+.plainpaper2toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 98.9vw;
+    z-index: -1;
+    margin-top: -8vw;
+}
 .toyh1
 {
     text-align: center;
-    margin-top: 3vw;
+    padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
     font-size: 80px;
@@ -748,6 +1028,11 @@ body
     font-family: myFont2;
     font-size: 20px;
     width: 80%;
+}
+
+.toy
+{
+    width: 99%;
 }
 
 .wheelimg
