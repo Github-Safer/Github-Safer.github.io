@@ -20,7 +20,17 @@ body
 @media screen and (max-width: 1500px) 
 {
 
-    .bgleaf1,.gridpaper1,.gridpaper2 {display:none;}
+    .bgleaf1,.gridpaper1,.gridpaper2,.gridpaper1,.gridpaper2,.bgleaf1,.bgleaf2,.bgtape1,
+    .bgtape2,.bgflower1,.paperbag1species,.paperbag2species,.paperbag3species,.gridpaper1species,.gridpaper2species,
+    .gridpaper3species,.bgflower1species,.bgflower2species,.bgflower3species,.bgflower4species,.bgflower5species,.bgleaf1species,
+    .bgleaf2species,.bgfleaf3species,.bgfleaf4species,.plainpaper1food,.bgflower1food,
+    .bgflower2food,.bgleaf1food,.bgleaf2food,.plainpaper1,.bgflower1tame,.bgflower2tame,.bgleaf1tame,
+    .bgleaf2tame,.bgleaf3tame,.bgtape1tame,.paperbag1tame,.bgtape1cage,.bgleaf1cage,.bgleaf2cage,.bgflower1cage,
+    .plainpaper1cage,.plainpaper2cage,.gridpaper1bedding,.gridpaper2bedding,.bgleafbedding1,
+    .bgflowerbedding1,.bgleaf1sand,.bgleaf2sand,.bgflower1sand,.plainpaper1toy,.plainpaper2toy,
+    .bgflower1toy,.bgflower2toy,.bgflower3toy,.bgleaf1toy,.bgleaf2toy,.paperbag1bedding, .paperbag2bedding
+    {display:none;}
+
 
 } 
 .icon
@@ -160,44 +170,6 @@ body
     border: 1vw solid #F2F1EB;
 }
 
- .indexh1
-{
-    text-align: center;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    font-family: myFont;
-    font-size: 80px;
-}
-
-.indexh3
-{
-    text-align: center;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    font-family: myFont;
-    font-size: 50px;
-}
-
-.indexp
-{
-    text-align: justify;
-    margin-bottom: 3vw;
-    margin: auto;
-    font-family: myFont2;
-    font-size: 30px;
-    width: 80%;
-}
-
-.indexp1
-{
-    text-align: justify;
-    margin-bottom: 3vw;
-    margin: auto;
-    font-family: myFont2;
-    font-size: 30px;
-    width: 90%;
-}
-
 .bgpaper1
 {
     background-repeat: no-repeat;
@@ -245,9 +217,95 @@ body
     height: 40vh;
     width: 20vw;
     z-index: -1;
-    margin-top: 400px;
-    margin-left: 200px;
+    margin-top: 150px;
+    margin-left: -150px;
     object-fit: contain;
+}
+
+.bgleaf2
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 400px;
+    margin-left: 300px;
+    object-fit: contain;
+}
+
+.bgtape1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    z-index: -1;
+    margin-top: 400px;
+    margin-left: 300px;
+    object-fit: contain;
+}
+
+.bgtape2
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    z-index: -1;
+    margin-top: -5vw;
+    margin-left: 40vw;
+    object-fit: contain;
+}
+
+.bgflower1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 20vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-left: 78vw;
+}
+
+
+ .indexh1
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 80px;
+}
+
+.indexh3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+.indexp
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 80%;
+}
+
+.indexp1
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width: 90%;
 }
 
 
@@ -350,6 +408,116 @@ body
     object-fit: contain;
 }
 
+.bgflower1species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 100vh;
+    margin-left: 35vw;
+    object-fit: contain;
+}
+
+.bgflower2species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 50vh;
+    margin-left: 35vw;
+    object-fit: contain; 
+}
+
+.bgflower3species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    z-index: -1;
+    margin-top: 20vh;
+    margin-left: 68.9vw;
+    object-fit: contain;
+}
+
+.bgflower4species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 50vh;
+    margin-left: 35vw;
+    object-fit: contain; 
+}
+
+.bgflower5species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 50vh;
+    margin-left: 35vw;
+    object-fit: contain;
+}
+
+
+
+.bgleaf1species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 155vh;
+    margin-left: 82vw;
+    object-fit: contain;
+}
+
+.bgleaf2species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    width: 15vw;
+    z-index: -1;
+    margin-top: 10vh;
+    margin-left: 82vw;
+    object-fit: contain;
+}
+
+.bgfleaf3species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 50vh;
+    margin-left: 35vw;
+    object-fit: contain; 
+}
+
+.bgfleaf4species
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    width: 15vw;
+    z-index: -1;
+    margin-top: 20vh;
+    margin-left: 83vw;
+    object-fit: contain;
+}
+
 .speciesh1
 {
     text-align: center;
@@ -387,7 +555,8 @@ body
 
 .speciesdl
 {
-
+    border: 1px solid black;
+    /* background-image: url("media/picfullbg2.png"); */
     margin: auto;
     text-align: justify;
     width: 90%;
@@ -462,6 +631,56 @@ body
     z-index: -1;
     
 }
+
+.bgflower1food
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 30vh;
+    margin-left: 88vw;
+    object-fit: contain;
+}
+
+.bgflower2food
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 18vw;
+    z-index: -1;
+    margin-top: 30vh;
+    margin-left: 80vw;
+    object-fit: contain;
+}
+
+
+.bgleaf1food
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    width: 15vw;
+    z-index: -1;
+    margin-top: 120vh;
+    margin-left: -67vw;
+    object-fit: contain;
+}
+
+.bgleaf2food
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    width: 15vw;
+    z-index: -1;
+    margin-top: 120vh;
+    margin-left: vw;
+    object-fit: contain;
+}
+
 .foodh1
 {
     text-align: center;
@@ -536,7 +755,7 @@ body
 
 .waterrow
 {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -588,6 +807,90 @@ body
     height: 100vh;
     width: 98.9vw;
     z-index: -1;
+    object-fit: contain;
+}
+
+.bgflower1tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 18vw;
+    z-index: -1;
+    margin-top: 30vh;
+    margin-left: 80vw;
+    object-fit: contain;
+}
+
+.bgflower2tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: -19vh;
+    margin-left: 88vw;
+    object-fit: contain;
+}
+
+.bgleaf1tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 20vw;
+    z-index: -1;
+    margin-top: -38vh;
+    margin-left: -3vw;
+    object-fit: contain;
+}
+
+.bgleaf2tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 35vh;
+    margin-left: -5vw;
+    object-fit: contain;
+}
+
+.bgleaf3tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 40vh;
+    margin-left: -4vw;
+    object-fit: contain;
+}
+
+
+.bgtape1tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 18vw;
+    z-index: -1;
+    margin-top: -16vh;
+    margin-left: 41vw;
+    object-fit: contain;
+}
+
+.paperbag1tame
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 45.2vw;
+    z-index: -1;
+    margin-left:-15.9vw;
     object-fit: contain;
 }
 .tameheader
@@ -664,6 +967,17 @@ body
     border: 1vw solid #F2F1EB;
 }
 
+.bgtape1cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 18vw;
+    z-index: -1;
+    margin-top: -16vh;
+    margin-left: 41vw;
+    object-fit: contain;
+}
 .bgpaper1cage
 {
     background-repeat: no-repeat;
@@ -680,6 +994,43 @@ body
     height: 50vh;
     width: 98.9vw;
     z-index: -1;
+}
+
+
+.bgleaf1cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: 1vh;
+    margin-left: 88vw;
+    object-fit: contain;
+}
+
+.bgleaf2cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -1;
+    margin-top: -10vh;
+    margin-left: 88vw;
+    object-fit: contain;
+}
+
+.bgflower1cage
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    z-index: -1;
+    margin-top: 1vh;
+    margin-left: -7vw;
+    object-fit: contain;
 }
 
 
@@ -799,6 +1150,55 @@ body
     height: 50vh;
     width:  98.9vw;
 }
+
+.gridpaper1bedding
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -5vw;
+}
+
+.gridpaper2bedding
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -5vw;
+    margin-left: 48.9vw;
+}
+
+.bgleafbedding1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    z-index: -1;
+    margin-top: 10vh;
+    margin-left: -6vw;
+    object-fit: contain;
+}
+
+.bgflowerbedding1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -58vw;
+    margin-left: 85vw;
+}
+
+
 .beddingh1
 {
     text-align: center;
@@ -887,6 +1287,42 @@ body
     z-index: -1;
 }
 
+.bgleaf1sand
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -6vw;
+    margin-left: 85vw;
+}
+
+.bgleaf2sand
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -15vw;
+    margin-left: 22vw;
+}
+
+
+.bgflower1sand
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -6vw;
+}
+
 .sandh1
 {
     text-align: center;
@@ -943,7 +1379,8 @@ body
 {
     width: 99%;
 }
-/* hamster wheel */
+
+/* hamster toy */
 .bgpaper1toy
 {
     background-repeat: no-repeat;
@@ -980,6 +1417,91 @@ body
     width: 98.9vw;
     z-index: -1;
     margin-top: -8vw;
+}
+
+.bgflower1toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -22vw;
+    margin-left: 87vw;
+}
+
+.bgflower2toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 10vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: 1vw;
+    margin-left: 87vw;
+}
+
+.bgflower3toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    width: 10vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: -20vw;
+    margin-left: 87vw;
+}
+
+
+.bgleaf1toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: 20vw;
+    margin-left: -1vw;
+}
+
+.bgleaf2toy
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 15vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: 3vw;
+    margin-left: -1vw;
+}
+
+.paperbag1bedding
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 40vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: 40vw;
+    margin-left: 58.9vw;
+}
+
+.paperbag2bedding
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 40vw;
+    z-index: -1;
+    object-fit: contain;
+    margin-top: 25vw;
+    margin-left: -1vw;
 }
 .toyh1
 {
