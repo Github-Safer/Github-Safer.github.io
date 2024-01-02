@@ -30,9 +30,8 @@ body
     .bgflowerbedding1,.bgleaf1sand,.bgleaf2sand,.bgflower1sand,.plainpaper1toy,.plainpaper2toy,
     .bgflower1toy,.bgflower2toy,.bgflower3toy,.bgleaf1toy,.bgleaf2toy,.paperbag1bedding, .paperbag2bedding
     {display:none;}
-
-
 } 
+
 .icon
 {
     color: black;
@@ -154,6 +153,40 @@ body
     color: black;
 }
 
+.footlogo
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footlogo:hover
+{
+    text-decoration: underline;
+    color: #CEB2DB;
+}
+
+/* button style */
+#btntop{
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 1%;
+    max-width: 50px;
+    width: 100%;
+    font-size: 25px;
+    color: black;
+    border-color:#F2F1EB;
+    background-color: #F2F1EB;
+    padding: .5px;
+    border-radius: 50px;
+    z-index:2;
+}
+
+#btntop:hover
+{
+    color: black;
+    background-color: #CEB2DB;
+}
 
 /* index style */
 
