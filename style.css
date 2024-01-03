@@ -61,17 +61,20 @@ body
     height: 120px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .navbar-toggler
 {
    justify-content: end;
+   margin: 3vw;
 }
 
 .navbar-nav
 {
     margin: auto;
+    padding-left: 3vw;
 }
 .navbar-nav li
 {
@@ -385,6 +388,7 @@ body
     height: 120vh;
     width: 60vw;
     z-index: -1;
+    margin-left: -1vw;
     object-fit: contain;
 }
 
@@ -395,7 +399,7 @@ body
     height: 100vh;
     width: 45vw;
     z-index: -1;
-    margin-left: 53.9vw;
+    margin-left: 53vw;
     object-fit: contain;
 }
 
@@ -406,6 +410,7 @@ body
     height: 120vh;
     width: 60vw;
     z-index: -1;
+    margin-left: -1vw;
     object-fit: contain;
 }
 
@@ -416,7 +421,7 @@ body
     height: 60vh;
     width: 45vw;
     z-index: -1;
-    margin-left: 53.9vw;
+    margin-left: 53vw;
     object-fit: contain;
 }
 
@@ -427,6 +432,7 @@ body
     height: 120vh;
     width: 60vw;
     z-index: -1;
+    margin-left: -1vw;
     object-fit: contain;
 }
 
@@ -437,7 +443,7 @@ body
     height: 100vh;
     width: 45vw;
     z-index: -1;
-    margin-left: 53.9vw;
+    margin-left: 53vw;
     object-fit: contain;
 }
 
@@ -469,11 +475,11 @@ body
 {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
-    width: 30vw;
+    height: 55vh;
+    width: 28vw;
     z-index: -1;
     margin-top: 20vh;
-    margin-left: 68.9vw;
+    margin-left: 70vw;
     object-fit: contain;
 }
 
@@ -511,7 +517,7 @@ body
     width: 10vw;
     z-index: -1;
     margin-top: 155vh;
-    margin-left: 82vw;
+    margin-left: 83vw;
     object-fit: contain;
 }
 
@@ -522,8 +528,8 @@ body
     height: 35vh;
     width: 15vw;
     z-index: -1;
-    margin-top: 10vh;
-    margin-left: 82vw;
+    margin-top: 20vh;
+    margin-left: 80vw;
     object-fit: contain;
 }
 
@@ -547,7 +553,7 @@ body
     width: 15vw;
     z-index: -1;
     margin-top: 20vh;
-    margin-left: 83vw;
+    margin-left: 80vw;
     object-fit: contain;
 }
 
@@ -617,7 +623,7 @@ body
 
 .speciesimg
 {
-    width: 400px;
+    width: 357px;
     height: 500px;
     object-fit: contain;
 
@@ -625,14 +631,16 @@ body
 
 .speciesimgdiv
 {
-    margin: auto;
     text-align: center;
 }
 
 .species
 {
+    margin: auto;
     width: 100%;
 }
+
+
 
 /* hamster food style */
 
@@ -774,7 +782,7 @@ body
 
 .foodimg
 {
-    width: 350px;
+    /* width: 350px; */
     height: 450px;
     object-fit: contain;
 
@@ -788,7 +796,7 @@ body
 
 .waterrow
 {
-    width: 60%;
+    width: 90%;
     margin: auto;
 }
 
@@ -797,21 +805,15 @@ body
     width: 100%;
 }
 
-.food
-{
-    width: 99%;
-}
-
-.foodimgdiv
-{
-    margin: auto;
-    text-align: center;
-}
-
 .foodrow
 {
     width: 95%;
     margin: auto;
+}
+
+.food
+{
+    width: 99%;
 }
 
 /* hamster tame style */
