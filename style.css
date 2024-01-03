@@ -4,7 +4,6 @@ body
     background-image: url("media/picfullbg1.jpg");
 }
 
-
 @font-face
 {
     font-family: myFont;
@@ -36,6 +35,7 @@ body
 {
     color: black;
 }
+
 .icon:hover
 {
     color: #CEB2DB;
@@ -46,6 +46,7 @@ body
     margin: 0%;
     padding: 0%;
 } 
+
 
 /* nav style */
 .navbar
@@ -137,6 +138,7 @@ body
     background-color:#CEB2DB;
 }
 
+
 /* footer style */
 .footer
 {
@@ -168,6 +170,7 @@ body
     color: #CEB2DB;
 }
 
+
 /* button style */
 #btntop{
     position: fixed;
@@ -190,6 +193,7 @@ body
     color: black;
     background-color: #CEB2DB;
 }
+
 
 /* index style */
 
@@ -344,8 +348,6 @@ body
     width: 90%;
 }
 
-
-
 .hamstercheecksrow ,.hamsterliverow
 {
     width: 85%;
@@ -369,6 +371,7 @@ body
     aspect-ratio: 16 / 9;
     width: 95%;
 }
+
 
 /* hamster species style */
 
@@ -508,7 +511,6 @@ body
 }
 
 
-
 .bgleaf1species
 {
     background-repeat: no-repeat;
@@ -595,7 +597,6 @@ body
 .speciesdl
 {
     border: 1px solid black;
-    /* background-image: url("media/picfullbg2.png"); */
     margin: auto;
     text-align: justify;
     width: 90%;
@@ -782,10 +783,8 @@ body
 
 .foodimg
 {
-    /* width: 350px; */
     height: 450px;
     object-fit: contain;
-
 }
 
 .foodimgdiv
@@ -815,6 +814,7 @@ body
 {
     width: 99%;
 }
+
 
 /* hamster tame style */
 .bgpaper1tame
@@ -904,8 +904,6 @@ body
     margin-left: -4vw;
     object-fit: contain;
 }
-
-
 .bgtape1tame
 {
     background-repeat: no-repeat;
@@ -928,12 +926,14 @@ body
     margin-left:-15.9vw;
     object-fit: contain;
 }
+
 .tameheader
 {
     text-align: center;
     margin: auto;
     padding-top: 10vh;
 }
+
 .tameheaderimg
 {
     width: 50vw;
@@ -942,6 +942,7 @@ body
     margin: auto;
     border: 1vw solid #F2F1EB;
 }
+
 .tameh1
 {
     text-align: center;
@@ -969,7 +970,6 @@ body
     font-size: 30px;
     width: 80%;
 }
-
 
 .tameimg
 { 
@@ -1013,6 +1013,7 @@ body
     margin-left: 41vw;
     object-fit: contain;
 }
+
 .bgpaper1cage
 {
     background-repeat: no-repeat;
@@ -1030,7 +1031,6 @@ body
     width: 98.9vw;
     z-index: -1;
 }
-
 
 .bgleaf1cage
 {
@@ -1068,7 +1068,6 @@ body
     object-fit: contain;
 }
 
-
 .plainpaper1cage
 {
     background-repeat: no-repeat;
@@ -1077,7 +1076,6 @@ body
     width: 98.9vw;
     z-index: -1;
     margin-top: 85vh;
-    
 }
 
 .plainpaper2cage
@@ -1087,8 +1085,8 @@ body
     height: 70vh;
     width: 98.9vw;
     z-index: -1;
-    
 }
+
 .cageh1
 {
     text-align: center;
@@ -1126,11 +1124,13 @@ body
     font-size: 30px;
     width: 80%;
 }
+
 .cagerow
 {
     width: 80%;
     margin: auto;
 }
+
 .vid3
 {
     margin:auto;
@@ -1169,6 +1169,7 @@ body
 
 
 /* hamster bedding style */
+
 .bgpaperbedding1
 {
     background-repeat: no-repeat;
@@ -1302,6 +1303,7 @@ body
 {
     width: 99%;
 }
+
 
 /* hamster sand style */
 .bgpaper1sand
@@ -1490,7 +1492,6 @@ body
     margin-left: 87vw;
 }
 
-
 .bgleaf1toy
 {
     background-repeat: no-repeat;
@@ -1606,7 +1607,6 @@ body
     text-align: center;
 }
 
-/* hamster hideout */
 .hideoutimg
 {
     width: 384px;
