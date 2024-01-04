@@ -103,21 +103,25 @@ body
 #hamsterlogo
 {
     width:90px;
+    margin-right: 4px;
 }
 
 #carelogo
 {
     width: 50px;
+    margin-right: 4px;
 }
 
 #cagelogo
 {
     width: 60px;
+    margin-right: 4px;
 }
 
 #toylogo
 {
     width: 50px;
+    margin-right: 4px;
 }
 
 .dropdown-menu
@@ -316,7 +320,7 @@ body
     margin-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .indexh3
@@ -565,7 +569,17 @@ body
     padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
+}
+
+.speciesh4
+{
+    font-family: myFont;
+    font-size: 35px;
+    text-align: center;
+    margin: 3vw;
+    margin-bottom: -3vw;
+    margin-top: 2vw;
 }
 
 .speciesp
@@ -577,15 +591,6 @@ body
     font-size: 30px;
     width: 80%;
 }
-.speciesh4
-{
-    font-family: myFont;
-    font-size: 35px;
-    text-align: center;
-    margin: 3vw;
-    margin-bottom: -3vw;
-    margin-top: 5vw;
-}
 
 .sciname
 {
@@ -596,7 +601,6 @@ body
 
 .speciesdl
 {
-    border: 1px solid black;
     margin: auto;
     text-align: justify;
     width: 90%;
@@ -624,8 +628,8 @@ body
 
 .speciesimg
 {
-    width: 357px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     object-fit: contain;
 
 }
@@ -640,6 +644,15 @@ body
     margin: auto;
     width: 100%;
 }
+
+.speciescol
+{
+    border: 1px solid black;
+    margin: auto;
+    width: 95%;
+    margin-top: 4vw;
+}
+
 
 
 
@@ -729,7 +742,7 @@ body
     padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .foodh3
@@ -749,6 +762,7 @@ body
     margin: 3vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
+    width: 90%;
 }
 
 .foodp
@@ -793,11 +807,6 @@ body
     text-align: center;
 }
 
-.waterrow
-{
-    width: 90%;
-    margin: auto;
-}
 
 .foodh1
 {
@@ -949,7 +958,7 @@ body
     margin-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .tameh3
@@ -971,6 +980,16 @@ body
     width: 80%;
 }
 
+.tamep1
+{
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin: auto;
+    font-family: myFont2;
+    font-size: 30px;
+    width:85%;
+}
+
 .tameimg
 { 
     width: 350px;
@@ -984,6 +1003,41 @@ body
 {
     margin: auto;
     text-align: center;
+}
+
+.vid7
+{
+    margin: auto;
+    text-align: center;
+    margin-left: 4vw;
+    margin-bottom: 2vw;
+    background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 95%;
+}
+
+.divtamevid
+{
+    width: 90%;
+    margin: auto;
+}
+
+.vid8
+{
+    margin: auto;
+    text-align: center;
+    margin-left: -2vw;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    background-image: url("media/gridpaper1.1.png");
+    aspect-ratio: 16 / 9;
+    width: 95%;
+}
+
+.divtamevid1
+{
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -1093,7 +1147,7 @@ body
     margin-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .cageh3
@@ -1241,7 +1295,7 @@ body
     padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .beddingh3
@@ -1366,7 +1420,7 @@ body
     padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .sandh3
@@ -1545,7 +1599,7 @@ body
     padding-top: 3vw;
     margin-bottom: 3vw;
     font-family: myFont;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .toyh3
