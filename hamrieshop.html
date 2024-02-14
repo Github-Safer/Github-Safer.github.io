@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<!-- Author's Name: Safer Marie Pattawi
+Last Updated:Feb 15,2024
+Description: This is the hamrie shop page which is the newly added feature in hamrie-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamrie Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-image">
+
+        <!-- this is for the nav section of hamrie-->
+        <nav id="top" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <!-- logo -->
+                <a href="index.html" class="navbar-brand"><img src="media/hamrielogo3.png" alt="company logo"></a>
+               
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+             
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav shopnav">
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link shopnavlink" href="#hamsterfood" role="button" >
+                          <img id="toylogo" src="media/navlogofood2.png" alt="">Hamster Food
+                        </a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link shopnavlink" href="#hamstercageessentials" role="button" >
+                          <img id="cagelogo" src="media/navlogocage.PNG" alt="">Hamster Cage Essentials
+                        </a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link shopnavlink" href="#hamstertoy" role="button" >
+                          <img id="toylogo" src="media/navlogotoy.PNG" alt="">Hamster Toys
+                        </a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="hamrieshopBag.html" role="button" >
+                          <img id="cartlogo" src="media/navlogoshop.png" alt="">My Bag
+                        </a>
+                      </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- end of nav section -->
+
+        <!-- this is for the content section of hamrie homepage--> 
+        <div class="container-fluid ">
+          <img class="bgpaper1shop z-n1 position-absolute  " src="media/coloredpaper4.png" alt="">
+          
+
+          <div class="allcarousel">
+
+         
+              <!-- 1st shop carousel -->
+              <div id="shopCarousel1" class="carousel carousel-dark slide d-lg-display ">
+                <div class="carousel-inner">
+
+                  <h1 class="shoph1">Hamrie Shop</h1>
+                  <h1 class="shoph3" id="hamsterfood">Hamster Food</h1>
+
+                  <!-- 1st set of products -->
+                  <div class="carousel-item active">
+                      <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_treats5.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Treats </h5>
+                              <p class="card-productDetail" >Dried Vegetables</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 350</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity1">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_food2.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Pellets</h5>
+                              <p class="card-productDetail">Grain formula</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 400</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity2">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue2(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_treats4.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Treats</h5>
+                              <p class="card-productDetail" >Dried Fruits</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 100</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity3">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue3(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- 2nd set of products -->
+                  <div class="carousel-item">
+                      <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_treats1.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Treats </h5>
+                              <p class="card-productDetail" >Dried Meal Worm</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 200</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity4">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue4(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_food1.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Pellet</h5>
+                              <p class="card-productDetail" >Luxury Formula</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 450</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity5">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue5(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_treats3.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Treats </h5>
+                              <p class="card-productDetail" >Sunflower Seeds</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 100</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity6">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue6(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                    </div>
+
+                  </div>
+                  
+                  <!-- 3rd set of products -->
+                  <div class="carousel-item">
+                    <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_food3.png" class="card-img-top productImage" alt="" id="HamsterPellets ">
+                            <div class="card-body">
+                              <h5 class="card-productName" >Pellet </h5>
+                              <p class="card-productDetail" >Luxury Formula</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 550</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity7">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue7(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_treats2.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Treats </h5>
+                              <p class="card-productDetail">Meal Worm</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 180</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity8">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue8(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+      
+                          <div class="card">
+                            <img src="media/product_treats6.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Treats </h5>
+                              <p class="card-productDetail" >Freeze Dried Cheese</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 300</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity9">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue9(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                    </div>
+                  </div> 
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#shopCarousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#shopCarousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            
+              <!-- 2nd shop carousel -->
+              <div id="shopCarousel2" class="carousel carousel-dark slide d-lg-display ">
+                <div class="carousel-inner">
+
+                  <h1 class="shoph3" id="hamstercageessentials">Hamster Cage Essentials</h1>
+
+                  <!-- 1st set of products -->
+                  <div class="carousel-item active">
+                      <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_bedding1.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Bedding </h5>
+                              <p class="card-productDetail" >Paper Bedding</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 450</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity10">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue10(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_sand1.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Sand</h5>
+                              <p class="card-productDetail">Natural</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 200</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity11">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue11(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_bedding2.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Bedding</h5>
+                              <p class="card-productDetail" >Paper Bedding</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 400</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity12">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue12(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <img class="bgleaf1shop img-responsive z-1 position-absolute  " src="media/picleaf1.png" alt="">
+                  <img class="plainpaper2shop z-n1 position-absolute" src="media/plainpaper1.png" alt="">
+
+                  <!-- 2nd set of products -->
+                  <div class="carousel-item">
+                      <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_bedding3.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Bedding </h5>
+                              <p class="card-productDetail" >Hay</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 200</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity13">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue13(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_sand2.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Sand</h5>
+                              <p class="card-productDetail" >Dessert Sand</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 350</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity14">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue14(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_sand4.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Sand </h5>
+                              <p class="card-productDetail" >Reptile Sand</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 500</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity15">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue15(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <!-- 3rd set of products -->
+                  <div class="carousel-item">
+                      <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_bedding4.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Bedding </h5>
+                              <p class="card-productDetail" >Wood Shavings</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 350</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity16">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue16(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_bedding5.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Bedding </h5>
+                              <p class="card-productDetail">Paper Bedding</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 450</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity17">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue17(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_bedding6.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Bedding </h5>
+                              <p class="card-productDetail" >Paper Bedding</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 600</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity18">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue18(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                      </div>
+                  </div> 
+
+                  <!-- 4th set of products -->
+                  <div class="carousel-item">
+                      <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_sand3.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Sand </h5>
+                              <p class="card-productDetail" >Aquarium Sand</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 550</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity19">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue19(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_bedding8.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName" >Bedding </h5>
+                              <p class="card-productDetail">Colored Paper Bedding</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 750</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity20">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue20(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_sand5.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Sand </h5>
+                              <p class="card-productDetail" >Play Sand</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 1000</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity21">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue21(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                      </div>
+                  </div> 
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#shopCarousel2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#shopCarousel2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+              <img class="plainpaper1shop z-n1 position-absolute" src="media/plainpaper.png" alt="">
+              <img class="bgflower1shop img-responsive z-1 position-absolute  " src="media/picflower2.1.png" alt="">
+              
+              <!-- 3rd shop carousel -->
+              <div id="shopCarousel3" class="carousel carousel-dark slide d-lg-display ">
+                <div class="carousel-inner">
+
+                  <h1 class="shoph3" id="hamstertoy">Hamster Toys</h1>
+
+                  <!-- 1st set of products -->
+                  <div class="carousel-item active">
+                      <div class="hamrieshop-card">
+                          <div class="card">
+                            <img src="media/product_wheel5.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Wheel </h5>
+                              <p class="card-productDetail" >Plastic Wheel</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 650</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity22">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue22(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_toy4.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Chew Toy</h5>
+                              <p class="card-productDetail">Wood Chew Toy</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice" ><span>&#8369; 80</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity23">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue23(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+        
+                          <div class="card">
+                            <img src="media/product_wheel3.png" class="card-img-top productImage" alt="" >
+                            <div class="card-body">
+                              <h5 class="card-productName">Wheel</h5>
+                              <p class="card-productDetail" >Plastic wheel</p> 
+
+                              <span class="price-quantity">
+                                <h5 class="card-productPrice"><span>&#8369; 2500</span></h5> 
+          
+                                <div class="quantity-body">
+                                  <label for="quantity">Quantity:</label>
+                                  <input type="number" min="1" class="quantity" id="quantity24">
+                                </div>
+                              </span>
+                              
+                              <span class="btn-body"><button onclick="getValue24(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <!-- 2nd set of products -->
+                <div class="carousel-item">
+                    <div class="hamrieshop-card">
+                        <div class="card">
+                          <img src="media/product_howood1.png" class="card-img-top productImage" alt="" >
+                          <div class="card-body">
+                            <h5 class="card-productName" >Hideout </h5>
+                            <p class="card-productDetail" >Multi Chamber Hideouts</p> 
+
+                            <span class="price-quantity">
+                              <h5 class="card-productPrice"><span>&#8369; 3500</span></h5> 
+        
+                              <div class="quantity-body">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" min="1" class="quantity" id="quantity25">
+                              </div>
+                            </span>
+                            
+                            <span class="btn-body"><button onclick="getValue25(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                          </div>
+                        </div>
+      
+                        <div class="card">
+                          <img src="media/product_hoceramic1.png" class="card-img-top productImage" alt="" >
+                          <div class="card-body">
+                            <h5 class="card-productName" >Hideout</h5>
+                            <p class="card-productDetail" >Ceramic Hideout</p> 
+
+                            <span class="price-quantity">
+                              <h5 class="card-productPrice"><span>&#8369; 550</span></h5> 
+        
+                              <div class="quantity-body">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" min="1" class="quantity" id="quantity26">
+                              </div>
+                            </span>
+                            
+                            <span class="btn-body"><button onclick="getValue26(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                          </div>
+                        </div>
+      
+                        <div class="card">
+                          <img src="media/product_hoceramic4.png" class="card-img-top productImage" alt="" >
+                          <div class="card-body">
+                            <h5 class="card-productName" >Hideout </h5>
+                            <p class="card-productDetail" >Ceramic Hideout</p> 
+
+                            <span class="price-quantity">
+                              <h5 class="card-productPrice"><span>&#8369; 500</span></h5> 
+        
+                              <div class="quantity-body">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" min="1" class="quantity" id="quantity27">
+                              </div>
+                            </span>
+                            
+                            <span class="btn-body"><button onclick="getValue27(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+                    
+                <!-- 3rd set of products -->
+                <div class="carousel-item">
+                    <div class="hamrieshop-card">
+                        <div class="card">
+                          <img src="media/product_wheels7.png" class="card-img-top productImage" alt="" >
+                          <div class="card-body">
+                            <h5 class="card-productName" >Wheel </h5>
+                            <p class="card-productDetail" >Metal Mesh Wheel</p> 
+
+                            <span class="price-quantity">
+                              <h5 class="card-productPrice" ><span>&#8369; 150</span></h5> 
+        
+                              <div class="quantity-body">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" min="1" class="quantity" id="quantity28">
+                              </div>
+                            </span>
+                            
+                            <span class="btn-body"><button onclick="getValue28(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <img src="media/product_toy2.png" class="card-img-top productImage" alt="" >
+                          <div class="card-body">
+                            <h5 class="card-productName" >Toy </h5>
+                            <p class="card-productDetail">Wood Tunel</p> 
+
+                            <span class="price-quantity">
+                              <h5 class="card-productPrice" ><span>&#8369; 400</span></h5> 
+        
+                              <div class="quantity-body">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" min="1" class="quantity" id="quantity29">
+                              </div>
+                            </span>
+                            
+                            <span class="btn-body"><button onclick="getValue29(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <img src="media/product_howood2.png" class="card-img-top productImage" alt="" >
+                          <div class="card-body">
+                            <h5 class="card-productName">Hideout </h5>
+                            <p class="card-productDetail" >Wood Hideout</p> 
+
+                            <span class="price-quantity">
+                              <h5 class="card-productPrice" ><span>&#8369; 600</span></h5> 
+        
+                              <div class="quantity-body">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" min="1" class="quantity" id="quantity30">
+                              </div>
+                            </span>
+                            
+                            <span class="btn-body"><button onclick="getValue30(event)" class="btn card-addToCartBtn" >Add to Bag</button></span>
+                          </div>
+                        </div>
+                    </div>
+                  </div> 
+
+                  <img class="bgleaf2shop img-responsive z-1 position-absolute  " src="media/picleaf2.png" alt="">
+
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#shopCarousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#shopCarousel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+
+                <!-- <table id="tableproduct" border="1">
+                  <tr>
+                      <th>Product Name</th>
+                      <th>Product Details</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                  </tr>
+                </table>  -->
+
+                <img class="bgpaper1cage z-n1 position-relative   " src="media/coloredpaper8.png" alt="">
+
+                <!-- this is for the footer section of hamrie-->
+                <footer class="footer z-1 position-absolute  ">
+                  <div class="text-white text-center  ">
+                    <p class="footp"> &copy <a class="footlogo" title="Tap to go back to the main page" href="index.html">Hamrie</a> 2024</p>
+                    <p class="footp1"> Created By <a class="footlogo" title="Tap to go back to the main page" href="http://localhost:3000/" target="_blank">Safer</a></p>
+                  </div>
+                </footer>
+                <!-- end  of footer -->
+                <button><a id="btntop"href="#top"><i class="bi bi-chevron-up"></i></a></button>
+
+        </div><!-- end of content-->
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="hamrieshop.js"></script>  
+</body>
+</html>

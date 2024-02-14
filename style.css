@@ -16,7 +16,7 @@ body
     src: url(font/GlacialIndifference.otf);
 }
 
-@media screen and (max-width: 1500px) 
+@media screen and (max-width: 1500px)
 {
 
     .bgleaf1,.gridpaper1,.gridpaper2,.gridpaper1,.gridpaper2,.bgleaf1,.bgleaf2,.bgtape1,
@@ -27,9 +27,10 @@ body
     .bgleaf2tame,.bgleaf3tame,.bgtape1tame,.paperbag1tame,.bgtape1cage,.bgleaf1cage,.bgleaf2cage,.bgflower1cage,
     .plainpaper1cage,.plainpaper2cage,.gridpaper1bedding,.gridpaper2bedding,.bgleafbedding1,
     .bgflowerbedding1,.bgleaf1sand,.bgleaf2sand,.bgflower1sand,.plainpaper1toy,.plainpaper2toy,
-    .bgflower1toy,.bgflower2toy,.bgflower3toy,.bgleaf1toy,.bgleaf2toy,.paperbag1bedding, .paperbag2bedding
+    .bgflower1toy,.bgflower2toy,.bgflower3toy,.bgleaf1toy,.bgleaf2toy,.paperbag1bedding, .paperbag2bedding,
+    .bgleaf1shop,.bgleaf2shop,.bgflower1shop,.plainpaper1shop,.plainpaper2shop,.bagleaf1,.bagflower1
     {display:none;}
-} 
+}
 
 .icon
 {
@@ -45,7 +46,7 @@ body
 {
     margin: 0%;
     padding: 0%;
-} 
+}
 
 
 /* nav style */
@@ -58,8 +59,8 @@ body
 
 .navbar-brand img
 {
-    width: 315px;
-    height: 120px;
+    width: 215px;
+    height: 90px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 2vw;
@@ -75,12 +76,12 @@ body
 .navbar-nav
 {
     margin: auto;
-    padding-left: 3vw;
+    padding-left: 1.4vw;
 }
 .navbar-nav li
 {
     display: inline;
-    padding-right: 3vw;
+    padding-right: 1.4vw;
 }
 
 .nav-link
@@ -102,7 +103,7 @@ body
 
 #hamsterlogo
 {
-    width:90px;
+    width:80px;
     margin-right: 4px;
 }
 
@@ -114,11 +115,17 @@ body
 
 #cagelogo
 {
-    width: 60px;
+    width: 65px;
     margin-right: 4px;
 }
 
 #toylogo
+{
+    width: 50px;
+    margin-right: 4px;
+}
+
+#cartlogo
 {
     width: 50px;
     margin-right: 4px;
@@ -156,11 +163,22 @@ body
 {
     text-align: center;
     margin: auto;
-    margin-top: 3.5vw;
+    margin-top: 2%;
     font-family: myFont2;
     font-size: 20px;
     color: black;
 }
+
+.footp1
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    font-family: myFont2;
+    font-size: 20px;
+    color: black;
+}
+
 
 .footlogo
 {
@@ -220,7 +238,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgpaper2
@@ -238,7 +256,7 @@ body
     background-size: cover;
     height: 90vh;
     width: 45vw;
-    z-index: -1;
+    z-index: -100;
     margin-left: 53.9vw;
     object-fit: contain;
 }
@@ -249,7 +267,7 @@ body
     background-size: cover;
     height: 70vh;
     width: 45vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-left: -9vw;
 }
@@ -260,7 +278,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 20vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 150px;
     margin-left: -150px;
     object-fit: contain;
@@ -272,7 +290,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 400px;
     margin-left: 300px;
     object-fit: contain;
@@ -284,7 +302,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 20vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 400px;
     margin-left: 300px;
     object-fit: contain;
@@ -296,7 +314,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 20vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -5vw;
     margin-left: 40vw;
     object-fit: contain;
@@ -308,7 +326,7 @@ body
     background-size: cover;
     height: 70vh;
     width: 20vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-left: 78vw;
 }
@@ -385,7 +403,7 @@ body
     background-size: cover;
     height: 60vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .paperbag1species
@@ -394,7 +412,7 @@ body
     background-size: cover;
     height: 120vh;
     width: 60vw;
-    z-index: -1;
+    z-index: -100;
     margin-left: -1vw;
     object-fit: contain;
 }
@@ -405,7 +423,7 @@ body
     background-size: cover;
     height: 100vh;
     width: 45vw;
-    z-index: -1;
+    z-index: -100;
     margin-left: 53vw;
     object-fit: contain;
 }
@@ -416,7 +434,7 @@ body
     background-size: cover;
     height: 120vh;
     width: 60vw;
-    z-index: -1;
+    z-index: -100;
     margin-left: -1vw;
     object-fit: contain;
 }
@@ -427,7 +445,7 @@ body
     background-size: cover;
     height: 60vh;
     width: 45vw;
-    z-index: -1;
+    z-index: -100;
     margin-left: 53vw;
     object-fit: contain;
 }
@@ -438,7 +456,7 @@ body
     background-size: cover;
     height: 120vh;
     width: 60vw;
-    z-index: -1;
+    z-index: -100;
     margin-left: -1vw;
     object-fit: contain;
 }
@@ -449,7 +467,7 @@ body
     background-size: cover;
     height: 100vh;
     width: 45vw;
-    z-index: -1;
+    z-index: -100;
     margin-left: 53vw;
     object-fit: contain;
 }
@@ -460,7 +478,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 100vh;
     margin-left: 35vw;
     object-fit: contain;
@@ -472,10 +490,10 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 50vh;
     margin-left: 35vw;
-    object-fit: contain; 
+    object-fit: contain;
 }
 
 .bgflower3species
@@ -484,7 +502,7 @@ body
     background-size: cover;
     height: 55vh;
     width: 28vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 20vh;
     margin-left: 70vw;
     object-fit: contain;
@@ -496,10 +514,10 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 50vh;
     margin-left: 35vw;
-    object-fit: contain; 
+    object-fit: contain;
 }
 
 .bgflower5species
@@ -508,7 +526,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 50vh;
     margin-left: 35vw;
     object-fit: contain;
@@ -521,7 +539,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 155vh;
     margin-left: 83vw;
     object-fit: contain;
@@ -533,7 +551,7 @@ body
     background-size: cover;
     height: 35vh;
     width: 15vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 20vh;
     margin-left: 80vw;
     object-fit: contain;
@@ -545,10 +563,10 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 50vh;
     margin-left: 35vw;
-    object-fit: contain; 
+    object-fit: contain;
 }
 
 .bgfleaf4species
@@ -557,7 +575,7 @@ body
     background-size: cover;
     height: 35vh;
     width: 15vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 20vh;
     margin-left: 80vw;
     object-fit: contain;
@@ -664,7 +682,7 @@ body
     background-size: cover;
     height: 60vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgpaper2food
@@ -673,7 +691,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .plainpaper1food
@@ -683,8 +701,8 @@ body
     margin-top: -1vw;
     height: 55vh;
     width: 98.9vw;
-    z-index: -1;
-    
+    z-index: -100;
+
 }
 
 .bgflower1food
@@ -693,7 +711,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 30vh;
     margin-left: 88vw;
     object-fit: contain;
@@ -705,7 +723,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 18vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 30vh;
     margin-left: 80vw;
     object-fit: contain;
@@ -718,7 +736,7 @@ body
     background-size: cover;
     height: 35vh;
     width: 15vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 120vh;
     margin-left: -67vw;
     object-fit: contain;
@@ -730,7 +748,7 @@ body
     background-size: cover;
     height: 35vh;
     width: 15vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 120vh;
     margin-left: vw;
     object-fit: contain;
@@ -832,7 +850,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgpaper2tame
@@ -841,7 +859,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .plainpaper1
@@ -850,7 +868,7 @@ body
     background-size: cover;
     height: 100vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
 }
 
@@ -860,7 +878,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 18vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 30vh;
     margin-left: 80vw;
     object-fit: contain;
@@ -872,7 +890,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -19vh;
     margin-left: 88vw;
     object-fit: contain;
@@ -884,7 +902,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 20vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -38vh;
     margin-left: -3vw;
     object-fit: contain;
@@ -896,7 +914,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 35vh;
     margin-left: -5vw;
     object-fit: contain;
@@ -908,7 +926,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 40vh;
     margin-left: -4vw;
     object-fit: contain;
@@ -919,7 +937,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 18vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -16vh;
     margin-left: 41vw;
     object-fit: contain;
@@ -931,7 +949,7 @@ body
     background-size: cover;
     height: 90vh;
     width: 45.2vw;
-    z-index: -1;
+    z-index: -100;
     margin-left:-15.9vw;
     object-fit: contain;
 }
@@ -991,7 +1009,7 @@ body
 }
 
 .tameimg
-{ 
+{
     width: 350px;
     height: 450px;
     object-fit: contain;
@@ -1062,7 +1080,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 18vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -16vh;
     margin-left: 41vw;
     object-fit: contain;
@@ -1074,7 +1092,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgpaper2cage
@@ -1083,7 +1101,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgleaf1cage
@@ -1092,7 +1110,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 1vh;
     margin-left: 88vw;
     object-fit: contain;
@@ -1104,7 +1122,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -10vh;
     margin-left: 88vw;
     object-fit: contain;
@@ -1116,7 +1134,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 30vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 1vh;
     margin-left: -7vw;
     object-fit: contain;
@@ -1128,7 +1146,7 @@ body
     background-size: cover;
     height: 70vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 85vh;
 }
 
@@ -1138,7 +1156,7 @@ body
     background-size: cover;
     height: 70vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .cageh1
@@ -1230,7 +1248,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgpaperbedding2
@@ -1247,7 +1265,7 @@ body
     background-size: cover;
     height: 100vh;
     width: 50vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -5vw;
 }
@@ -1258,7 +1276,7 @@ body
     background-size: cover;
     height: 100vh;
     width: 50vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -5vw;
     margin-left: 48.9vw;
@@ -1270,7 +1288,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 20vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: 10vh;
     margin-left: -6vw;
     object-fit: contain;
@@ -1282,7 +1300,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -58vw;
     margin-left: 85vw;
@@ -1339,7 +1357,7 @@ body
 }
 
 .beddingimg
-{ 
+{
     width: 384px;
     height:451.75px;
     object-fit: contain;
@@ -1366,7 +1384,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgpaper2sand
@@ -1375,7 +1393,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgleaf1sand
@@ -1384,7 +1402,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -6vw;
     margin-left: 85vw;
@@ -1396,7 +1414,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -15vw;
     margin-left: 22vw;
@@ -1409,7 +1427,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -6vw;
 }
@@ -1478,7 +1496,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .bgpaper2toy
@@ -1487,7 +1505,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .plainpaper1toy
@@ -1496,7 +1514,7 @@ body
     background-size: cover;
     height: 70vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -5vw;
 }
 
@@ -1506,7 +1524,7 @@ body
     background-size: cover;
     height: 80vh;
     width: 98.9vw;
-    z-index: -1;
+    z-index: -100;
     margin-top: -8vw;
 }
 
@@ -1516,7 +1534,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -22vw;
     margin-left: 87vw;
@@ -1528,7 +1546,7 @@ body
     background-size: cover;
     height: 30vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: 1vw;
     margin-left: 87vw;
@@ -1540,7 +1558,7 @@ body
     background-size: cover;
     height: 45vh;
     width: 10vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: -20vw;
     margin-left: 87vw;
@@ -1552,7 +1570,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 20vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: 20vw;
     margin-left: -1vw;
@@ -1564,7 +1582,7 @@ body
     background-size: cover;
     height: 40vh;
     width: 15vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: 3vw;
     margin-left: -1vw;
@@ -1576,7 +1594,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 40vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: 40vw;
     margin-left: 58.9vw;
@@ -1588,7 +1606,7 @@ body
     background-size: cover;
     height: 50vh;
     width: 40vw;
-    z-index: -1;
+    z-index: -100;
     object-fit: contain;
     margin-top: 25vw;
     margin-left: -1vw;
@@ -1675,3 +1693,312 @@ body
     margin: auto;
     text-align: center;
 }
+
+/* hamrieshop style */
+
+@media screen and (max-width: 567px)
+{
+    .card:not(:first-child)
+    {
+        display: none;
+    }
+}
+
+.bgpaper1shop
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -100;
+}
+
+.bgleaf1shop
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -100;
+    margin-top: -7vh;
+    margin-left: 88vw;
+    object-fit: contain;
+}
+
+.bgleaf2shop
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 10vw;
+    z-index: -100;
+    margin-top: 70vh;
+    margin-left: 88vw;
+    object-fit: contain;
+}
+
+.bgflower1shop
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    z-index: -100;
+    margin-top: 1vh;
+    margin-left: -7vw;
+    object-fit: contain;
+}
+
+.plainpaper1shop
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 98.9vw;
+    z-index: -100;
+}
+
+.plainpaper2shop
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 98.9vw;
+    z-index: -100;
+}
+
+.shoph1
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+    font-family: myFont;
+    font-size: 70px;
+}
+
+.shoph3
+{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: myFont;
+    font-size: 50px;
+}
+
+
+
+.shopnav li
+{
+    display: inline;
+    padding-right: 3vw;
+}
+
+.shopnavlink
+{
+    font-family: myFont2;
+    font-size: 20px;
+    color: black;
+}
+
+.hamrieshop-card
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card
+{
+    margin: 2vw;
+    width: 300px;
+}
+
+.card-productName
+{
+    font-family: myFont;
+    font-size: 30px;
+}
+
+.card-productDetail
+{
+    font-family: myFont2;
+    font-size: 20px;
+}
+
+.card-productPrice
+{
+    font-family: myFont2;
+    font-size: 20px;
+    margin-top: 0.5vh;
+}
+
+.price-quantity
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.quantity-body
+{
+    font-family: myFont2;
+    font-size: 20px;
+}
+
+.quantity
+{
+    width: 40px;
+}
+
+.btn-body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card-addToCartBtn
+{
+    font-family: myFont2;
+    font-size: 20px;
+    background-color: #CEB2DB;
+}
+
+.card-addToCartBtn:hover
+{
+    background-color: #eadcf0;
+}
+
+/* hamrieshop bag style */
+.bagpaper1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 98.9vw;
+    z-index: -100;
+    margin-top: -3%;
+}
+
+.bagpaper2
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width:  98.9vw;
+}
+
+
+.bagleaf1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    z-index: -100;
+    margin-top: -8%;
+    margin-left: -15px;
+    object-fit: contain;
+}
+
+.bagflower1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    z-index: -100;
+    object-fit: contain;
+    margin-left: 85vw;
+}
+
+
+.Mybagh3
+{
+    text-align: start;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 2.5%;
+    font-family: myFont2;
+    font-size: 30px;
+}
+
+.table-form-body
+{
+    background-image: url("media/picfullbg2.png");
+    margin: auto;
+    width: 90%;
+}
+
+.tableproduct-body
+{
+    display: flex;
+    justify-content: center;
+    font-family: myfont2;
+    font-size: 20px;
+    
+}
+
+#tableproduct
+{
+    border: 1px solid black;
+    padding: 2vw;
+    background-size: cover;
+    text-align: center;
+    width: 95%;
+    margin-top:3%;
+}
+
+#tableproduct th
+{
+    font-family: myfont;
+    font-size: 30px;
+}
+
+
+.form
+{
+    /* background-image: url("media/picfullbg2.png"); */
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+}
+
+.form label
+{
+    font-family: myfont;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.form input
+{
+    font-family: myfont2;
+    font-size: 19px;
+    margin-right: 30px;
+}
+
+.form button
+{
+    font-family: myFont2;
+    font-size: 20px;
+    background-color: #CEB2DB;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 50px;
+}
+
+.form button:hover
+{
+    background-color: #eadcf0;
+}
+
+.buyagain a
+{
+    text-decoration: none;
+    color: black;
+}
+.thankyou
+{
+    margin-top: 2%;
+    font-family: myFont;
+    font-size: 50px;
+}
+
