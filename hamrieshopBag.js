@@ -33,9 +33,39 @@ let quantity28 = document.getElementById("quantity28");
 let quantity29 = document.getElementById("quantity29");
 let quantity30= document.getElementById("quantity30");
 
-let cart = localStorage.getItem ("HamrieShopCart");
-let cartProduct = (cart) ? JSON.parse(cart) : [];
+let qtyMessage1 = document.getElementById("quantity-message1");
+let qtyMessage2 = document.getElementById("quantity-message2");
+let qtyMessage3 = document.getElementById("quantity-message3");
+let qtyMessage4 = document.getElementById("quantity-message4");
+let qtyMessage5 = document.getElementById("quantity-message5");
+let qtyMessage6 = document.getElementById("quantity-message6");
+let qtyMessage7 = document.getElementById("quantity-message7");
+let qtyMessage8 = document.getElementById("quantity-message8");
+let qtyMessage9 = document.getElementById("quantity-message9");
+let qtyMessage10 = document.getElementById("quantity-message10");
+let qtyMessage11= document.getElementById("quantity-message11");
+let qtyMessage12 = document.getElementById("quantity-message12");
+let qtyMessage13= document.getElementById("quantity-message13");
+let qtyMessage14= document.getElementById("quantity-message14");
+let qtyMessage15= document.getElementById("quantity-message15");
+let qtyMessage16= document.getElementById("quantity-message16");
+let qtyMessage17= document.getElementById("quantity-message17");
+let qtyMessage18= document.getElementById("quantity-message18");
+let qtyMessage19= document.getElementById("quantity-message19");
+let qtyMessage20= document.getElementById("quantity-message20");
+let qtyMessage21= document.getElementById("quantity-message21");
+let qtyMessage22= document.getElementById("quantity-message22");
+let qtyMessage23= document.getElementById("quantity-message23");
+let qtyMessage24= document.getElementById("quantity-message24");
+let qtyMessage25= document.getElementById("quantity-message25");
+let qtyMessage26= document.getElementById("quantity-message26");
+let qtyMessage27= document.getElementById("quantity-message27");
+let qtyMessage28= document.getElementById("quantity-message28");
+let qtyMessage29= document.getElementById("quantity-message29");
+let qtyMessage30= document.getElementById("quantity-message30");
 
+let bag = localStorage.getItem ("HamrieShopBag");
+let bagProduct = (bag) ? JSON.parse(bag) : [];
 
 let table = document.getElementById("tableproduct");
 let fname = document.getElementById("fname");
@@ -43,16 +73,11 @@ let lname = document.getElementById("lname");
 let address = document.getElementById("address");
 let mobile = document.getElementById("mobile");
 let thankyou = document.getElementById("thankyou");
-
-
+let msg = document.getElementById("msg");
 let productTotal = document.getElementById("productTotal");
 
 let product = localStorage.getItem ("HamrieShopCheckOut");
 let checkOutProduct = (product) ? JSON.parse(product) : [];
-
- 
-
-
 
 
 // 1st carousel
@@ -66,8 +91,17 @@ function getValue(event)
                    pQty: quantity1.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity1.value <= 0)
+    {
+        qtyMessage1.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage1.innerHTML=""
+    }
 
     quantity1.value=""
 }
@@ -82,8 +116,17 @@ function getValue2(event)
                     pQty: quantity2.value
                    };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity2.value <= 0)
+    {
+        qtyMessage2.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage2.innerHTML=""
+    }
 
     quantity2.value=""
 }
@@ -98,8 +141,17 @@ function getValue3(event)
                    pQty: quantity3.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity3.value <= 0)
+    {
+        qtyMessage3.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage3.innerHTML=""
+    }
 
     quantity3.value=""
 }
@@ -114,8 +166,17 @@ function getValue4(event)
                    pQty: quantity4.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity4.value <= 0)
+    {
+        qtyMessage4.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage4.innerHTML=""
+    }
 
     quantity4.value=""
 }
@@ -130,8 +191,17 @@ function getValue5(event)
                    pQty: quantity5.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity5.value <= 0)
+    {
+        qtyMessage5.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage5.innerHTML=""
+    }
 
     quantity5.value=""
 }
@@ -146,8 +216,17 @@ function getValue6(event)
                    pQty: quantity6.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity6.value <= 0)
+    {
+        qtyMessage6.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage6.innerHTML=""
+    }
 
     quantity6.value=""
 }
@@ -162,8 +241,17 @@ function getValue7(event)
                    pQty: quantity7.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity7.value <= 0)
+    {
+        qtyMessage7.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage7.innerHTML=""
+    }
 
     quantity7.value=""
 }
@@ -178,8 +266,17 @@ function getValue8(event)
                    pQty: quantity8.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity8.value <= 0)
+    {
+        qtyMessage8.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage8.innerHTML=""
+    }
 
     quantity8.value=""
 }
@@ -194,8 +291,17 @@ function getValue9(event)
                    pQty: quantity9.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity9.value <= 0)
+    {
+        qtyMessage9.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage9.innerHTML=""
+    }
 
     quantity9.value=""
 }
@@ -211,8 +317,17 @@ function getValue10(event)
                    pQty: quantity10.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity10.value <= 0)
+    {
+        qtyMessage10.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage10.innerHTML=""
+    }
 
     quantity10.value=""
 }
@@ -227,8 +342,17 @@ function getValue11(event)
                    pQty: quantity11.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity11.value <= 0)
+    {
+        qtyMessage11.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage11.innerHTML=""
+    }
 
     quantity11.value=""
 }
@@ -243,8 +367,17 @@ function getValue12(event)
                    pQty: quantity12.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity12.value <= 0)
+    {
+        qtyMessage12.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage12.innerHTML=""
+    }
 
     quantity12.value=""
 }
@@ -259,8 +392,17 @@ function getValue13(event)
                    pQty: quantity13.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity13.value <= 0)
+    {
+        qtyMessage13.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage13.innerHTML=""
+    }
 
     quantity13.value=""
 }
@@ -275,8 +417,17 @@ function getValue14(event)
                    pQty: quantity14.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity14.value <= 0)
+    {
+        qtyMessage14.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage14.innerHTML=""
+    }
 
     quantity14.value=""
 }
@@ -291,8 +442,17 @@ function getValue15(event)
                    pQty: quantity15.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity15.value <= 0)
+    {
+        qtyMessage15.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage15.innerHTML=""
+    }
 
     quantity15.value=""
 }
@@ -307,8 +467,17 @@ function getValue16(event)
                    pQty: quantity16.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity16.value <= 0)
+    {
+        qtyMessage16.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage16.innerHTML=""
+    }
 
     quantity16.value=""
 }
@@ -323,8 +492,17 @@ function getValue17(event)
                    pQty: quantity17.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity17.value <= 0)
+    {
+        qtyMessage17.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage17.innerHTML=""
+    }
 
     quantity17.value=""
 }
@@ -339,8 +517,17 @@ function getValue18(event)
                    pQty: quantity18.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity18.value <= 0)
+    {
+        qtyMessage18.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage18.innerHTML=""
+    }
 
     quantity18.value=""
 }
@@ -355,8 +542,17 @@ function getValue19(event)
                    pQty: quantity19.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity19.value <= 0)
+    {
+        qtyMessage19.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage19.innerHTML=""
+    }
 
     quantity19.value=""
 }
@@ -371,8 +567,17 @@ function getValue20(event)
                    pQty: quantity20.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity20.value <= 0)
+    {
+        qtyMessage20.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage20.innerHTML=""
+    }
 
     quantity20.value=""
 }
@@ -387,8 +592,17 @@ function getValue21(event)
                    pQty: quantity21.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity21.value <= 0)
+    {
+        qtyMessage21.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage21.innerHTML=""
+    }
 
     quantity21.value=""
 }
@@ -404,8 +618,17 @@ function getValue22(event)
                    pQty: quantity22.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity22.value <= 0)
+    {
+        qtyMessage22.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage22.innerHTML=""
+    }
 
     quantity22.value=""
 }
@@ -420,8 +643,17 @@ function getValue23(event)
                    pQty: quantity23.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity23.value <= 0)
+    {
+        qtyMessage23.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage23.innerHTML=""
+    }
 
     quantity23.value=""
 }
@@ -436,8 +668,17 @@ function getValue24(event)
                    pQty: quantity24.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity24.value <= 0)
+    {
+        qtyMessage24.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage24.innerHTML=""
+    }
 
     quantity24.value=""
 }
@@ -452,8 +693,17 @@ function getValue25(event)
                    pQty: quantity25.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity25.value <= 0)
+    {
+        qtyMessage25.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage25.innerHTML=""
+    }
 
     quantity25.value=""
 }
@@ -468,8 +718,17 @@ function getValue26(event)
                    pQty: quantity26.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity26.value <= 0)
+    {
+        qtyMessage26.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage26.innerHTML=""
+    }
 
     quantity26.value=""
 }
@@ -484,8 +743,17 @@ function getValue27(event)
                    pQty: quantity27.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity27.value <= 0)
+    {
+        qtyMessage27.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage27.innerHTML=""
+    }
 
     quantity27.value=""
 }
@@ -500,8 +768,17 @@ function getValue28(event)
                    pQty: quantity28.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity28.value <= 0)
+    {
+        qtyMessage28.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage28.innerHTML=""
+    }
 
     quantity28.value=""
 }
@@ -516,8 +793,17 @@ function getValue29(event)
                    pQty: quantity29.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity29.value <= 0)
+    {
+        qtyMessage29.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage29.innerHTML=""
+    }
 
     quantity29.value=""
 }
@@ -532,17 +818,25 @@ function getValue30(event)
                    pQty: quantity30.value
                   };
 
-    cartProduct.push (products);
-    localStorage.setItem("HamrieShopCart", JSON.stringify(cartProduct));
+    if(quantity30.value <= 0)
+    {
+        qtyMessage30.innerHTML="Please add at least one quantity"
+    }
+
+    else
+    {
+        bagProduct.push (products);
+        localStorage.setItem("HamrieShopBag", JSON.stringify(bagProduct));
+        qtyMessage30.innerHTML=""
+    }
 
     quantity30.value=""
 }
 
 
-
  let total =0
  let i = 0;
- for (i; i < cartProduct.length; i ++)
+ for (i; i < bagProduct.length; i ++)
  {
     let row =table.insertRow();
     let pName = row.insertCell();
@@ -551,13 +845,13 @@ function getValue30(event)
     let pQty = row.insertCell();
 
 
-    let total1 = cartProduct [i].pPrice * cartProduct [i].pQty;
+    let total1 = bagProduct [i].pPrice * bagProduct [i].pQty;
     total += total1
 
-    pName.innerHTML = cartProduct [i].pName;
-    pDetail.innerHTML = cartProduct [i].pDetail;
-    pPrice.innerHTML = cartProduct [i].pPrice;
-    pQty.innerHTML = cartProduct [i].pQty;
+    pName.innerHTML = bagProduct [i].pName;
+    pDetail.innerHTML = bagProduct [i].pDetail;
+    pPrice.innerHTML = bagProduct [i].pPrice;
+    pQty.innerHTML = bagProduct [i].pQty;
  }
 
  console.log(`this is total${total} `)
@@ -574,10 +868,38 @@ function getValue30(event)
                     ptotal:total
                    };
  
-     checkOutProduct.push (products);
-     localStorage.setItem("HamrieShopCheckOut", JSON.stringify(checkOutProduct));
+    if(fname.value == "" )
+    {
+        msg.innerHTML="Please provide all the needed information"
+    }
 
-     thankyou.innerHTML="Thank you For Buying!!!"
+    else if(lname.value == "")
+        {
+            msg.innerHTML="Please provide all the needed information"
+
+        }
+
+    else if(mobile.value == "")
+        {
+            msg.innerHTML="Please provide all the needed information"
+        }
+
+
+    else if(address.value == "")
+        {
+            msg.innerHTML="Please provide all the needed information"
+
+        }
+
+    else
+        {
+            checkOutProduct.push (products);
+            localStorage.setItem("HamrieShopCheckOut", JSON.stringify(checkOutProduct));
+
+                msg.innerHTML=""
+
+            thankyou.innerHTML="Thank You For Buying !!!"
+        }
  }
 
  function clearstorage()

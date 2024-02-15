@@ -1850,6 +1850,12 @@ body
     width: 40px;
 }
 
+.quantity-message
+{
+    font-family: myFont2;
+    font-size: 19px;
+}
+
 .btn-body
 {
     display: flex;
@@ -1961,6 +1967,12 @@ body
     margin: auto;
 }
 
+.form-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 .form label
 {
     font-family: myfont;
@@ -1995,6 +2007,13 @@ body
     text-decoration: none;
     color: black;
 }
+
+.msg
+{
+    font-family: myfont2;
+    font-size: 30px;
+}
+
 .thankyou
 {
     margin-top: 2%;
@@ -2002,3 +2021,7 @@ body
     font-size: 50px;
 }
 
+.card alert
+{
+    background-color: #CEB2DB;
+}
