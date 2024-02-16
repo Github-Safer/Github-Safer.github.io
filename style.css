@@ -30,6 +30,21 @@ body
     .bgflower1toy,.bgflower2toy,.bgflower3toy,.bgleaf1toy,.bgleaf2toy,.paperbag1bedding, .paperbag2bedding,
     .bgleaf1shop,.bgleaf2shop,.bgflower1shop,.plainpaper1shop,.plainpaper2shop,.bagleaf1,.bagflower1
     {display:none;}
+
+    .form-content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+
+    .form label
+    {
+       margin: auto;
+       margin-bottom: 15px;
+    }
 }
 
 .icon
@@ -1957,6 +1972,60 @@ body
     font-family: myfont;
     font-size: 30px;
 }
+
+@media screen and (max-width: 1500px)
+{
+    .form-content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+
+    .form label
+    {
+       margin: auto;
+       margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    #tableproduct th
+    {
+        font-family: myfont;
+        font-size: 20px;
+    }
+
+    .tableproduct-body
+    {
+        display: flex;
+        justify-content: center;
+        font-family: myfont2;
+        font-size: 15px;
+    }
+
+    .Mybagh3
+    {
+        font-family: myFont2;
+        font-size: 20px;
+    }   
+    
+}
+
+@media screen and (max-width: 500px)
+{
+    #tableproduct th
+    {
+        font-family: myfont;
+        font-size: 15px;
+    }
+}
+
+
+
 
 
 .form
