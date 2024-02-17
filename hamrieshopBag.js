@@ -904,6 +904,6 @@ function getValue30(event)
 
  function clearstorage()
  {
-    localStorage.clear();
+    localStorage.removeItem("HamrieShopBag");
  }
 
