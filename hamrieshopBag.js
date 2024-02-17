@@ -860,7 +860,7 @@ function getValue30(event)
  function getshippingDetails(event)
  {
      event.preventDefault();
-     let products = {
+     let checkOutInfo = {
                     fname: fname.value,
                     lname: lname.value,
                     address: address.value,
@@ -893,7 +893,7 @@ function getValue30(event)
 
     else
         {
-            checkOutProduct.push (products);
+            checkOutProduct.push (checkOutInfo);
             localStorage.setItem("HamrieShopCheckOut", JSON.stringify(checkOutProduct));
 
                 msg.innerHTML=""
